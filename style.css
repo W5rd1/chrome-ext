@@ -1,0 +1,31 @@
+/* body {
+  background-color: none;
+  padding: 0;
+  margin: 0;
+  height: 300px;
+  width: 300px;
+} */
+
+body {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid grey; */
+  margin: 0;
+  padding: 0;
+  background-color: rgb(20, 20, 20);
+  opacity: 0.9;
+}
+#get-player {
+  height: 30px;
+  border-radius: 5px;
+  background-color: turquoise;
+  width: 100px;
+  margin-top: 10px;
+}
+.player {
+  color: white;
+}
